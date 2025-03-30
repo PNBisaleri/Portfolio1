@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pavithra N Bisaleri's portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Pavi's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hello there, I am <span class="name">Pavithra N Bisaleri</span>
+          <div>and I am a passionate</div>
+          <span id="features"></span>
+        </div>
+        <div class="rightsection">
+          <div class="image">
+            <img src="developer.png" />
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="second">
+        <h1>About Me</h1>
+        <section class="fsecond">
+          <div class="myimage">
+            <img src="2.jpeg" alt="Pavithra N Bisaleri" />
+          </div>
+          <div class="aboutme">
+            <p>
+              <strong>Pavithra N Bisaleri</strong>, a 3rd-year student at
+              <strong>Ramaiah Institute of Technology</strong>, Bangalore. <br />
+              Pursuing a <i>B.E. degree in Information Science and Engineering.</i>
+            </p>
+          </div>
+        </section>
+      </section>
+      
+      <hr />
+      <section class="third">
+        <h1>My Projects:</h1>
+        <div class="project">
+          <div class="row1">
+            <div class="column1">
+              <div class="colimage">
+                <img src="quiz.png" alt="quiz" /><br />
+              </div>
+              <div class="desc">
+                <h2>Quiz Application</h2>
+                <p>Tech Stack: HTML, CSS, Javascript</p>
+              </div>
+            </div>
+            <div class="column2">
+              <div class="colimage">
+                <img src="savari.png" alt="savari" /><br />
+              </div>
+              <div class="desc">
+                <h2>Savari - Travelling Companion</h2>
+                <p>Tech Stack: HTML, CSS, Javascript, Typescript</p>
+              </div>
+            </div>
+            <div class="column3">
+              <div class="colimage">
+                <img src="hostel.png" alt="hostel" /><br />
+              </div>
+              <div class="desc">
+                <h2>Hostel Management</h2>
+                <p>Tech Stack: HTML, CSS, Javascript <br>
+                   
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed("#features", {
+          strings: ["Web developer", "Software Engineer", "Data Analyst"],
+          typeSpeed: 50,
+          loop: true,
+        });
+      </script>
+    </main>
+  </body>
+</html>

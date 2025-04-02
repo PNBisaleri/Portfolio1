@@ -17,12 +17,19 @@ JavaScript - Adding interactivity (Typed.js for animations)
 
 📁 Pavi-Portfolio
 │── 📄 index.html       # Main HTML file
+
 │── 📄 style.css        # Stylesheet for the portfolio
+
 │── 📄 developer.png    # Developer illustration image
+
 │── 📄 2.jpeg          # Profile image
+
 │── 📄 quiz.png        # Image for Quiz project
+
 │── 📄 savari.png      # Image for Savari project
+
 │── 📄 hostel.png      # Image for Hostel project
+
 └── 📄 README.md       # Project documentation (this file)
 
 Getting Started
